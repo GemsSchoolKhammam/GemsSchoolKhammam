@@ -6,49 +6,49 @@
     <title>Gems School Khammam | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>.gold-gradient { background: linear-gradient(135deg, #B8860B 0%, #FFD700 100%); } .navy-blue { background-color: #000080; }</style>
+    <style>
+        .gold-gradient { background: linear-gradient(135deg, #B8860B 0%, #FFD700 100%); }
+        .navy-blue { background-color: #000080; }
+        /* ప్రొఫెషనల్ బ్యాక్‌గ్రౌండ్ కోసం */
+        .main-bg { background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec); }
+    </style>
 </head>
-<body class="bg-gray-50 font-sans">
-    <nav class="bg-white shadow-lg sticky top-0 z-50">
+<body class="main-bg font-sans min-h-screen">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="index.html" class="flex items-center">
                 <div class="w-8 h-8 gold-gradient rounded-full flex items-center justify-center text-white font-bold mr-2">G</div>
-                <div class="text-lg font-bold text-blue-900 uppercase">GEMS SCHOOL</div>
+                <div class="text-lg font-bold text-blue-900 uppercase tracking-tight">GEMS SCHOOL</div>
             </a>
-            <div class="flex space-x-3 text-[10px] font-bold uppercase">
+            <div class="flex space-x-4 text-[11px] font-bold uppercase tracking-wide">
                 <a href="index.html" class="text-blue-600">Home</a>
-                <a href="about.html">About</a>
-                <a href="admissions.html">Admissions</a>
-                <a href="contact.html">Contact</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-900">About</a>
+                <a href="admissions.html" class="text-gray-600 hover:text-blue-900">Admissions</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-900">Contact</a>
             </div>
         </div>
     </nav>
 
-    <section class="py-10 container mx-auto px-4">
-        <div class="flex flex-col md:flex-row gap-8 items-start">
+    <section class="py-12 container mx-auto px-4">
+        <div class="flex flex-col md:flex-row gap-10 items-center">
             
-            <div class="md:w-1/2 grid grid-cols-1 gap-4">
-                <img src="about.jpg" alt="Building 1" class="w-full h-48 object-cover rounded-2xl shadow-md border-4 border-white">
-                <img src="about2.jpg" alt="Building 2" class="w-full h-48 object-cover rounded-2xl shadow-md border-4 border-white">
-                <img src="admissions.jpg" alt="Building 3" class="w-full h-48 object-cover rounded-2xl shadow-md border-4 border-white">
+            <div class="md:w-5/12 flex flex-col gap-6 justify-center items-center">
+                <img src="about2.jpg" alt="School Building" class="w-10/12 h-44 object-cover rounded-3xl shadow-xl border-4 border-white transform hover:scale-105 transition duration-300">
+                <img src="admissions.jpg" alt="School Campus" class="w-10/12 h-44 object-cover rounded-3xl shadow-xl border-4 border-white transform hover:scale-105 transition duration-300">
             </div>
 
-            <div class="md:w-1/2 bg-white p-8 rounded-3xl shadow-xl border-t-8 border-yellow-500 h-full">
-                <h4 class="text-yellow-600 font-bold mb-2 uppercase tracking-widest text-xs">Join Our School</h4>
-                <h1 class="text-3xl font-extrabold text-blue-900 mb-6 uppercase">Admissions Open <br>2026-27</h1>
-                <p class="text-gray-600 mb-8 leading-relaxed">Secure your child's future at Gems School Khammam. We offer a holistic learning environment for students from <b>Nursery to Class 10</b>.</p>
-                <div class="space-y-4 mb-8 text-sm font-bold text-blue-900">
-                    <p><i class="fas fa-check-circle text-green-500 mr-2"></i> Quality English Medium Education</p>
-                    <p><i class="fas fa-check-circle text-green-500 mr-2"></i> Disciplined Environment</p>
-                    <p><i class="fas fa-check-circle text-green-500 mr-2"></i> Experienced Teachers</p>
-                </div>
-                <a href="admissions.html" class="gold-gradient text-blue-900 block text-center px-8 py-3 rounded-xl font-bold uppercase shadow-lg">View Admission Details</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-gray-400 py-6 text-center mt-10">
-        <p class="text-[10px] uppercase">© 2026 Gems School Khammam | Developed by Syed Mujahid</p>
-    </footer>
-</body>
-</html>
+            <div class="md:w-7/12 bg-white p-10 rounded-[40px] shadow-2xl border-t-8 border-blue-900 relative overflow-hidden">
+                <div class="absolute -top-10 -right-10 w-32 h-32 bg-yellow-100 rounded-full opacity-50"></div>
+                
+                <h4 class="text-blue-800 font-extrabold mb-2 uppercase tracking-[0.2em] text-xs">Welcome to Excellence</h4>
+                <h1 class="text-4xl md:text-5xl font-black text-gray-800 mb-6 leading-tight uppercase">
+                    Admissions <br> <span class="text-yellow-600">Now Open</span>
+                </h1>
+                
+                <div class="space-y-6 mb-10">
+                    <div class="flex items-start gap-4">
+                        <div class="p-2 bg-blue-100 rounded-lg"><i class="fas fa-graduation-cap text-blue-900"></i></div>
+                        <div>
+                            <p class="font-bold text-gray-800 text-lg">Nursery to Class 10</p>
+                            
